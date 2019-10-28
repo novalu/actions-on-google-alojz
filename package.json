@@ -1,0 +1,42 @@
+{
+  "name": "alojz",
+  "version": "1.1.0",
+  "description": "",
+  "main": "src/main.js",
+  "repository": "github:novalu/actions-on-google-alojz",
+  "keywords": [
+    "actions on google",
+    "google assistant",
+    "weather"
+  ],
+  "scripts": {
+    "install-libs": "npm i && cd functions && npm i",
+    "build": "tsc",
+    "deploy-all": "cd functions && npm run deploy-all",
+    "deploy-development": "cd functions && npm run deploy-development",
+    "deploy-production": "cd functions && npm run deploy-production",
+    "run-test": "npx cross-env NODE_ENV=development node src/main.js",
+    "run-test-continuous": "npx cross-env NODE_ENV=development nodemon",
+    "debug-test": "npx cross-env NODE_ENV=development node --inspect src/main.js",
+    "debug-test-continuous": "npx cross-env NODE_ENV=development nodemon --inspect"
+  },
+  "author": {
+    "name": "novalu",
+    "url": "http://www.novaklukas.cz",
+    "email": "novalu@novalu.info"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "10.14.22",
+    "inversify": "5.0.1",
+    "npm": "6.12.0",
+    "reflect-metadata": "0.1.13"
+  },
+  "devDependencies": {
+    "cross-env": "6.0.3",
+    "gulp": "3.9.1",
+    "gulp-run-command": "0.0.9",
+    "nodemon": "1.19.4",
+    "typescript": "3.6.4"
+  }
+}

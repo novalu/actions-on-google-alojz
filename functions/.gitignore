@@ -1,0 +1,13 @@
+/**/*.js
+/**/*.js.map
+
+/node_modules/
+
+/package-lock.json
+
+service-account.json
+lib
+
+firebase-debug.log
+
+src/providers/secrets_provider/impl/MySecretsProvider.ts

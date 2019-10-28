@@ -1,0 +1,16 @@
+############### APP ##################
+
+node_modules
+
+src/**/*.js
+src/**/*.js.map
+
+############## .IDEA #################
+
+.idea
+
+####### CONFIGURATION FILES ##########
+
+.firebaserc
+
+package-lock.json

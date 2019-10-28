@@ -1,0 +1,32 @@
+{
+    "defaultSeverity": "warning",
+    "extends": [
+        "tslint:latest"
+    ],
+    "jsRules": {},
+    "rules": {
+        "member-ordering": false,
+        "interface-name": false,
+        "curly": false,
+        "object-literal-sort-keys": false,
+        "no-bitwise": false,
+        "ordered-imports": false,
+        "no-submodule-imports": false,
+        "variable-name": {
+            "options": [
+                "allow-leading-underscore"
+            ]
+        },
+        "comma-dangle": false,
+        "trailing-comma": false,
+        "no-trailing-whitespace": false,
+        "semicolon": false,
+        "max-line-length": false
+    },
+    "rulesDirectory": [],
+    "linterOptions": {
+        "exclude": [
+            "*.js"
+        ]
+    }
+}
