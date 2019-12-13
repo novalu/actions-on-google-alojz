@@ -29,7 +29,7 @@
   "dependencies": {
     "@types/node": "10.14.22",
     "inversify": "5.0.1",
-    "npm": "6.12.0",
+    "npm": "6.13.4",
     "reflect-metadata": "0.1.13"
   },
   "devDependencies": {
