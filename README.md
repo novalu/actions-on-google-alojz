@@ -1,6 +1,12 @@
+# This repo has been archived due to sunset of Actions on Google and suspension of the Alojz service.
+
+---
+
 # Alojz (Weather in Czech Republic)
 
 Source code for the Actions on Google app Weather in Czech Republic ([App Directory](https://assistant.google.com/services/a/uid/000000e97c3f16a5?hl=en)). This action is an experimental app for getting forecast in a language which Google Assistant doesn't support, in this case Czech language. Action is getting forecast from the NLP app [Alojz.cz](http://www.alojz.cz), which process yr.no forecast into natural language.
+
+Action is based on this template for simple building voice actions using Actions on Google, Firebase Functions and TypeScript: https://github.com/novalu/actions-on-google-typescript-template.
 
 ## Build
 
